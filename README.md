@@ -5,6 +5,12 @@ Download the latest version from the **Releases** page; no git or programming to
 
 ## What it does
 
+- **Three modes**, picked on the setup page the app opens on (or from **View**):
+  - **Runner Mode:** the map plus what's left to collect, completion at a glance, and **Record run**
+    to race your run later as a ghost.
+  - **Routing Mode:** build or customize a 100% route (splits with steps, notes, section ghosts,
+    LiveSplit import / export) and share it as a file.
+  - **Research Mode:** everything, including logging and scans to help complete the map.
 - **Live map** of the planet you're on: floor, map regions, collectibles, meditation points, enemy
   spawns, kill zones and loading triggers (where scanned so far), with your position on it.
 - **Follows the game**: switches planet when you travel, and shows a galaxy overview on the title
@@ -34,7 +40,8 @@ files. It opens the game for reading only and reads save files read-only.
 
 ## Helping complete the map
 
-The map only shows areas someone has scanned. To add yours:
+The map only shows areas someone has scanned. To add yours (in **Research Mode**: View ▸ Research
+Mode):
 
 1. **Logging ▸ What to log…**: pick what to record (all on by default).
 2. **Logging ▸ Start logging**, then play. When a new area loads, a red **STOP** banner appears:
@@ -43,16 +50,22 @@ The map only shows areas someone has scanned. To add yours:
 4. **File ▸ Export my scans (zip)…** and send the zip to the maintainer. It contains positions from
    your scans only: no recordings of your runs, no logs, nothing personal.
 
+## Reporting a problem
+
+**Help ▸ Report an issue** (or right-click a map marker with a wrong name). It opens a pre-filled
+GitHub issue on this page, or copies the report if you don't have a GitHub account. You see
+everything it includes before sending.
+
 ## Where it keeps things
 
-Your scans, recordings and settings are in `%LOCALAPPDATA%\swjs-hundo\`. **Tools ▸ Check for updates**
-asks this page for a newer version (optionally at every start).
+Your scans, recordings, routes and settings are in `%LOCALAPPDATA%\swjs-hundo\`. **Tools ▸ Check for
+updates** asks this page for a newer version (optionally at every start).
 
-## Status (0.1.1)
+## Status (0.2.0)
 
-Early version. Map data so far: floors for Coruscant and Koboh; map-section shapes for Jedha;
-collectibles, regions and triggers for the planets visited in testing. The per-area checklist, XP/skill-point pace tracker and route notes are
-planned, not built yet.
+Early version. Map data so far: floors for Coruscant, Koboh and Tanalorr; map-section shapes for
+Jedha; collectibles, regions and triggers for the planets visited in testing. Route steps for the
+LiveSplit split you're on and the skill-point pace label are planned, not built yet.
 
 ## Legal
 
