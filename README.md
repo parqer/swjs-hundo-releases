@@ -48,10 +48,10 @@ The map only shows areas someone has scanned. To add yours:
 Your scans, recordings and settings are in `%LOCALAPPDATA%\swjs-hundo\`. **Tools ▸ Check for updates**
 asks this page for a newer version (optionally at every start).
 
-## Status (0.1.0)
+## Status (0.1.1)
 
-Early version. Map data so far: floors for Coruscant and Koboh; collectibles, regions and triggers for
-the planets visited in testing. The per-area checklist, XP/skill-point pace tracker and route notes are
+Early version. Map data so far: floors for Coruscant and Koboh; map-section shapes for Jedha;
+collectibles, regions and triggers for the planets visited in testing. The per-area checklist, XP/skill-point pace tracker and route notes are
 planned, not built yet.
 
 ## Legal
