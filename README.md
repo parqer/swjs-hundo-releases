@@ -61,7 +61,7 @@ everything it includes before sending.
 Your scans, recordings, routes and settings are in `%LOCALAPPDATA%\swjs-hundo\`. **Tools ▸ Check for
 updates** asks this page for a newer version (optionally at every start).
 
-## Status (0.2.0)
+## Status (0.2.1)
 
 Early version. Map data so far: floors for Coruscant, Koboh and Tanalorr; map-section shapes for
 Jedha; collectibles, regions and triggers for the planets visited in testing. Route steps for the
